@@ -1,16 +1,9 @@
 ﻿using System;
 
-class DataGeneric<T>
+class HaloGeneric
 {
-    public T Data { get; set; }
-
-    public DataGeneric(T data)
+    public void SapaUser<T>(T user)
     {
-        Data = data;
-    }
-
-    public void PrintData()
-    {
-        Console.WriteLine("Data yang tersimpan adalah: " + Data);
+        Console.WriteLine("Halo user " + user);
     }
 }
